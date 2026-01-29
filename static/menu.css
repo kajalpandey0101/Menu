@@ -1,0 +1,30 @@
+/* 
+.hero {
+    min-height: 150vh;
+    
+}
+
+
+.menu-title{
+   
+    font-size: 70px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+                
+}
+
+
+.box1, .box2, .box3 {
+    padding: 25px 30px;
+    height: 550px;
+    width: 310px;
+    background: pink;
+    border-radius: 18px;
+}
+.menu-link {
+    position: absolute;
+    top: 780px;
+    left: 50%;
+    transform: translateX(-50%);
+} */

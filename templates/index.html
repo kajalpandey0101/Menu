@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Food Order{% endblock %}
+
+{% block content %}
+
+<div class="hero">
+
+    <!-- clouds -->
+    <img src="{{ url_for('static', filename='images/cloud.png') }}" class="cloud c1">
+    <img src="{{ url_for('static', filename='images/cloud.png') }}" class="cloud c2">
+    <img src="{{ url_for('static', filename='images/cloud.png') }}" class="cloud c3">
+    <img src="{{ url_for('static', filename='images/cloud.png') }}" class="cloud c4">
+    <img src="{{ url_for('static', filename='images/cloud.png') }}" class="cloud c5">
+
+    <!-- cherries -->
+    <img src="{{ url_for('static', filename='images/cherry.png') }}" class="cherry ch1">
+    <img src="{{ url_for('static', filename='images/cherry.png') }}" class="cherry ch2">
+    <img src="{{ url_for('static', filename='images/cherry.png') }}" class="cherry ch3">
+    <img src="{{ url_for('static', filename='images/cherry.png') }}" class="cherry ch4">
+
+    <!-- heading -->
+    <h1 class="title">Hey cutie!!</h1>
+
+    <!-- question box -->
+    <div class="question-box">
+        What would you like to order, miss?
+    </div>
+
+    <!-- MENU BUTTON -->
+    <a href="/menu" class="menu-link">
+        <button class="menu-btn">Menu</button>
+    </a>
+
+    <!-- doughnut circle -->
+    <div class="donut-circle">
+        <img src="{{ url_for('static', filename='images/doughnut.png') }}" class="donut">
+    </div>
+    <img src="{{ url_for('static', filename='images/cat.png') }}" class="cat">
+</div>
+
+{% endblock %}
